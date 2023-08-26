@@ -1,4 +1,4 @@
-from core.config import config
+from app.config import config
 from core.database.base import Database
 
 
