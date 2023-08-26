@@ -5,7 +5,13 @@ from fastapi import FastAPI
 
 from core.config import config
 
-app = FastAPI(title=config().PROJECT_NAME, version=config().PROJECT_VERSION)
+
+def create_app() -> FastAPI:
+    app = FastAPI(title=config().PROJECT_NAME, version=config().PROJECT_VERSION)
+    return app
+
+
+app = create_app()
 
 
 @app.get("/")

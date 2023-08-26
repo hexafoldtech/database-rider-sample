@@ -1,4 +1,4 @@
-from peewee import BooleanField, CharField, DateField, DecimalField, IntegerField, Model
+from peewee import CharField, DateField, Model
 
 
 class User(Model):
