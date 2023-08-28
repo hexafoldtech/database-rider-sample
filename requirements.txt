@@ -3,7 +3,11 @@ uvicorn==0.22.0
 pydantic==2.3
 FastAPI-SQLAlchemy==0.2.1
 databases==0.7.0
-database-rider==1.2.0
+dbrider==1.0.3
 pytest==7.4.0
 Faker==13.2.0
 testcontainers==3.5.4
+ormar==0.5.3
+python-dotenv==0.19.2
+databases==0.7.0
+peewee==3.14.10
